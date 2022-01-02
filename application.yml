@@ -1,4 +1,9 @@
 
+spring:
+  jackson:
+    serialization:
+      indent-output: true
+
 eureka:
   client:
     register-with-eureka: true
